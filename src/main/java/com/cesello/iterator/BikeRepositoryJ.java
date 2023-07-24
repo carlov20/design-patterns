@@ -2,12 +2,12 @@ package com.cesello.iterator;
 
 import java.util.Iterator;
 
-public class BikeRepository implements Iterable<String> {
+public class BikeRepositoryJ implements Iterable<String> {
 
     private String[] bikes;
     private int index;
 
-    public BikeRepository() {
+    public BikeRepositoryJ() {
         bikes = new String[10];
         index = 0;
     }

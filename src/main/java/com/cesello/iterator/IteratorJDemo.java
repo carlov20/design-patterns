@@ -2,11 +2,11 @@ package com.cesello.iterator;
 
 import java.util.Iterator;
 
-public class IteratorDemo {
+public class IteratorJDemo {
 
     public static void main(String[] args) {
 
-        BikeRepository repo = new BikeRepository();
+        BikeRepositoryJ repo = new BikeRepositoryJ();
 
         repo.addBike("Cervelo");
         repo.addBike("Scott");
