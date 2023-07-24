@@ -4,27 +4,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 // client
-public class CommandDemo {
+public class CommandJDemo {
 
     public static void main(String[] args) {
-        Light bedroomLight = new Light();
-        Light kitchenLight = new Light();
-        Switch lightSwitch = new Switch();
+        LightJ bedroomLight = new LightJ();
+        LightJ kitchenLight = new LightJ();
+        SwitchJ lightSwitch = new SwitchJ();
 
 //        Command onCommand = new OnCommand(bedroomLight);
 //        lightSwitch.storeAndExecute(onCommand);
 
-        Command toggleCommand = new ToggleCommand(bedroomLight);
+        CommandJ toggleCommand = new ToggleCommandJ(bedroomLight);
 //
         lightSwitch.storeAndExecute(toggleCommand);
 //        lightSwitch.storeAndExecute(toggleCommand);
 //        lightSwitch.storeAndExecute(toggleCommand);
 
-        List<Light> lights = new ArrayList<>();
+        List<LightJ> lights = new ArrayList<>();
         lights.add(bedroomLight);
         lights.add(kitchenLight);
 
-        Command allLightsCommand = new AllLightsCommand(lights);
+        CommandJ allLightsCommand = new AllLightsCommandJ(lights);
 
         lightSwitch.storeAndExecute(allLightsCommand);
 //        lightSwitch.storeAndExecute(allLightsCommand);

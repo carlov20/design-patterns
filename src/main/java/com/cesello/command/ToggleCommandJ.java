@@ -1,10 +1,10 @@
 package com.cesello.command;
 
-public class ToggleCommand implements Command{
+public class ToggleCommandJ implements CommandJ {
 
-    private Light light;
+    private LightJ light;
 
-    public ToggleCommand(Light light) {
+    public ToggleCommandJ(LightJ light) {
         this.light = light;
     }
     @Override

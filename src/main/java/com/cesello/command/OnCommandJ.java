@@ -1,8 +1,8 @@
 package com.cesello.command;
 
-public class OnCommand implements Command {
-    private Light light;
-    public OnCommand(Light light) {
+public class OnCommandJ implements CommandJ {
+    private LightJ light;
+    public OnCommandJ(LightJ light) {
         this.light = light;
     }
 

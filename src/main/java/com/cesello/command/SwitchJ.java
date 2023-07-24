@@ -1,9 +1,9 @@
 package com.cesello.command;
 
 // invoker
-public class Switch {
+public class SwitchJ {
 
-    public void storeAndExecute(Command command) {
+    public void storeAndExecute(CommandJ command) {
         command.execute();
     }
 }

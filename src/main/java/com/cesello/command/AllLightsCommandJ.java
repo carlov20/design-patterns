@@ -2,11 +2,11 @@ package com.cesello.command;
 
 import java.util.List;
 
-public class AllLightsCommand implements Command {
+public class AllLightsCommandJ implements CommandJ {
 
-    private List<Light> lights;
+    private List<LightJ> lights;
 
-    public AllLightsCommand(List<Light> lights) {
+    public AllLightsCommandJ(List<LightJ> lights) {
         this.lights = lights;
     }
 

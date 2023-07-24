@@ -1,7 +1,7 @@
 package com.cesello.command;
 
 // receiver
-public class Light {
+public class LightJ {
 
     private boolean isOn = false;
 
