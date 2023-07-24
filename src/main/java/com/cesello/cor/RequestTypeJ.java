@@ -1,5 +1,5 @@
 package com.cesello.cor;
 
-public enum RequestType {
+public enum RequestTypeJ {
     CONFERENCE, PURCHASE
 }

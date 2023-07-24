@@ -1,10 +1,10 @@
 package com.cesello.cor;
 
-public abstract class Handler {
+public abstract class HandlerJ {
 
-    protected Handler successor;
+    protected HandlerJ successor;
 
-    public void setSuccessor(Handler successor) {
+    public void setSuccessor(HandlerJ successor) {
         this.successor = successor;
     }
 

@@ -2,15 +2,15 @@ package com.cesello.cor;
 
 public class Request {
 
-    private RequestType requestType;
+    private RequestTypeJ requestType;
     private double amount;
 
-    public Request(RequestType requestType, double amount) {
+    public Request(RequestTypeJ requestType, double amount) {
         this.requestType = requestType;
         this.amount = amount;
     }
 
-    public RequestType getRequestType() {
+    public RequestTypeJ getRequestType() {
         return requestType;
     }
 
