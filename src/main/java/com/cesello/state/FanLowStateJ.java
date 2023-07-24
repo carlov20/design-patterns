@@ -1,8 +1,8 @@
 package com.cesello.state;
 
-public class FanLowState extends State {
-    private Fan fan;
-    public FanLowState(Fan fan) {
+public class FanLowStateJ extends StateJ {
+    private FanJ fan;
+    public FanLowStateJ(FanJ fan) {
         super();
         this.fan = fan;
     }

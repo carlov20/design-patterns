@@ -3,7 +3,7 @@ package com.cesello.state;
 public class StateEverydayDemo {
 
     public static void main(String[] args) {
-        Fan fan = new Fan();
+        FanJ fan = new FanJ();
 
         System.out.println(fan);
 
