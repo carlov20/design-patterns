@@ -1,7 +1,7 @@
 package com.cesello.mediator;
 
 // colleague
-public interface Command {
+public interface CommandJ {
 
     void execute();
 }

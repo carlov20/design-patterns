@@ -4,11 +4,11 @@ import java.awt.*;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class MediatorEverydayDemo {
+public class MediatorJEverydayDemo {
     Toolkit toolkit;
     Timer timer;
 
-    public MediatorEverydayDemo(int seconds) {
+    public MediatorJEverydayDemo(int seconds) {
         toolkit = Toolkit.getDefaultToolkit();
         timer = new Timer();
         timer.schedule(new RemindTask(), seconds * 1000);
@@ -37,7 +37,7 @@ public class MediatorEverydayDemo {
 
     public static void main(String[] args) {
         System.out.println("About to schedule task.");
-        new MediatorEverydayDemo(3);
+        new MediatorJEverydayDemo(3);
         System.out.println("Task scheduled. ");
     }
 }

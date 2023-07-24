@@ -1,12 +1,12 @@
 package com.cesello.mediator;
 
 // receiver
-public class Light {
+public class LightJ {
 
     private String name;
     private boolean isOn = false;
 
-    public Light(String name) {
+    public LightJ(String name) {
         this.name = name;
     }
     public boolean isOn() {

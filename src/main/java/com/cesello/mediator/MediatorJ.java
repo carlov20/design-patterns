@@ -3,16 +3,16 @@ package com.cesello.mediator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Mediator {
+public class MediatorJ {
 
-    private List<Light> lights = new ArrayList<>();
+    private List<LightJ> lights = new ArrayList<>();
 
-    public void registerLight(Light light) {
+    public void registerLight(LightJ light) {
         lights.add(light);
     }
 
     public void turnOnAllLights() {
-        for(Light light : lights) {
+        for(LightJ light : lights) {
             if(!light.isOn()) {
                 light.toggle();
             }
@@ -20,7 +20,7 @@ public class Mediator {
     }
 
     public void turnOffAllLights() {
-        for(Light light : lights) {
+        for(LightJ light : lights) {
             if(light.isOn()) {
                 light.toggle();
             }

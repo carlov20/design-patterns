@@ -1,10 +1,10 @@
 package com.cesello.mediator;
 
-public class TurnOnAllLightsCommand implements Command {
+public class TurnOnAllLightsCommandJ implements CommandJ {
 
-    private Mediator mediator;
+    private MediatorJ mediator;
 
-    public TurnOnAllLightsCommand(Mediator mediator) {
+    public TurnOnAllLightsCommandJ(MediatorJ mediator) {
         this.mediator = mediator;
     }
 
