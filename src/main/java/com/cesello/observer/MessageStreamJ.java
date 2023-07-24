@@ -3,7 +3,7 @@ package com.cesello.observer;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class MessageStream extends Subject {
+public class MessageStreamJ extends SubjectJ {
 
     private Deque<String> messageHistory = new LinkedList<>();
 

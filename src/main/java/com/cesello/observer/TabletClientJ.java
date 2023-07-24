@@ -1,10 +1,10 @@
 package com.cesello.observer;
 
-public class TabletClient extends Observer{
+public class TabletClientJ extends ObserverJ {
 
-    private Subject subject;
+    private SubjectJ subject;
 
-    public TabletClient(Subject subject) {
+    public TabletClientJ(SubjectJ subject) {
         this.subject = subject;
         subject.attach(this);
     }

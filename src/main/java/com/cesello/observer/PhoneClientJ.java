@@ -1,8 +1,8 @@
 package com.cesello.observer;
 
-public class PhoneClient extends Observer {
+public class PhoneClientJ extends ObserverJ {
 
-    public PhoneClient(Subject subject) {
+    public PhoneClientJ(SubjectJ subject) {
         this.subject = subject;
         subject.attach(this);
     }

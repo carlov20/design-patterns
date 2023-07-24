@@ -3,23 +3,23 @@ package com.cesello.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Subject {
+public abstract class SubjectJ {
 
-    private List<Observer> observers = new ArrayList<>();
+    private List<ObserverJ> observers = new ArrayList<>();
 
     abstract void setState(String state);
     abstract String getState();
 
-    public void attach(Observer observer) {
+    public void attach(ObserverJ observer) {
         observers.add(observer);
     }
 
-    public void detach(Observer observer) {
+    public void detach(ObserverJ observer) {
         observers.remove(observer);
     }
 
     public void notifyObservers() {
-        for(Observer observer : observers) {
+        for(ObserverJ observer : observers) {
             observer.update();
         }
     }
