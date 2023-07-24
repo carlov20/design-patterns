@@ -1,6 +1,6 @@
 package com.cesello.memento;
 
-public class Employee {
+public class EmployeeJ {
 
     private String name;
 
@@ -40,11 +40,11 @@ public class Employee {
                 '}';
     }
 
-    public EmployeeMemento save() {
-        return new EmployeeMemento(name, phone);
+    public EmployeeMementoJ save() {
+        return new EmployeeMementoJ(name, phone);
     }
 
-    public void revert(EmployeeMemento employeeMemento) {
+    public void revert(EmployeeMementoJ employeeMemento) {
         this.name = employeeMemento.getName();
         this.phone = employeeMemento.getPhone();
     }

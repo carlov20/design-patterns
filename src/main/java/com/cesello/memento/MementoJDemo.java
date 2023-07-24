@@ -1,11 +1,11 @@
 package com.cesello.memento;
 
-public class MementoDemo {
+public class MementoJDemo {
 
     public static void main(String[] args) {
-        Caretaker caretaker = new Caretaker();
+        CaretakerJ caretaker = new CaretakerJ();
 
-        Employee employee = new Employee();
+        EmployeeJ employee = new EmployeeJ();
 
         employee.setName("John Wick");
         employee.setAddress("111 Main Street");

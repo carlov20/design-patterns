@@ -4,7 +4,7 @@ import java.io.*;
 
 public class MementoEverydayDemo {
 
-    private static void serialize(Employee emp) {
+    private static void serialize(EmployeeJ emp) {
 
         try {
             FileOutputStream fileOut = new FileOutputStream("/tmp/employee.ser");
@@ -17,12 +17,12 @@ public class MementoEverydayDemo {
         }
     }
 
-    private static Employee deserialize() {
-        Employee employee = null;
+    private static EmployeeJ deserialize() {
+        EmployeeJ employee = null;
         try {
             FileInputStream fileIn = new FileInputStream("/tmp/employee.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
-            employee = (Employee) in.readObject();
+            employee = (EmployeeJ) in.readObject();
             in.close();
             fileIn.close();
 
@@ -34,14 +34,14 @@ public class MementoEverydayDemo {
 
     public static void main(String[] args) {
 
-        Employee emp = new Employee();
+        EmployeeJ emp = new EmployeeJ();
         emp.setName("Bryan Hansen");
         emp.setAddress("111 E Code Street");
         emp.setPhone("888-555-1212");
 
         serialize(emp);
 
-        Employee newEmp = deserialize();
+        EmployeeJ newEmp = deserialize();
 
         System.out.println(newEmp.getName());
 

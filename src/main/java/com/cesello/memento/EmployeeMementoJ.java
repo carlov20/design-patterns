@@ -1,11 +1,11 @@
 package com.cesello.memento;
 
-public class EmployeeMemento {
+public class EmployeeMementoJ {
 
     private String name;
     private String phone;
 
-    public EmployeeMemento(String name, String phone) {
+    public EmployeeMementoJ(String name, String phone) {
         this.name = name;
         this.phone = phone;
     }
