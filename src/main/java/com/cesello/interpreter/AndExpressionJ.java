@@ -1,10 +1,10 @@
 package com.cesello.interpreter;
 
-public class AndExpression implements Expression{
-    private Expression expr1 = null;
-    private Expression expr2 = null;
+public class AndExpressionJ implements ExpressionJ {
+    private ExpressionJ expr1 = null;
+    private ExpressionJ expr2 = null;
 
-    public AndExpression(Expression expr1, Expression expr2) {
+    public AndExpressionJ(ExpressionJ expr1, ExpressionJ expr2) {
         this.expr1 = expr1;
         this.expr2 = expr2;
     }

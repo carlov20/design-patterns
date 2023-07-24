@@ -1,11 +1,11 @@
 package com.cesello.interpreter;
 
-public class OrExpression implements Expression {
+public class OrExpressionJ implements ExpressionJ {
 
-    private Expression expr1 = null;
-    private Expression expr2 = null;
+    private ExpressionJ expr1 = null;
+    private ExpressionJ expr2 = null;
 
-    public OrExpression(Expression expr1, Expression expr2) {
+    public OrExpressionJ(ExpressionJ expr1, ExpressionJ expr2) {
         this.expr1 = expr1;
         this.expr2 = expr2;
     }

@@ -1,5 +1,5 @@
 package com.cesello.interpreter;
 
-public interface Expression {
+public interface ExpressionJ {
     public boolean interpret(String context);
 }

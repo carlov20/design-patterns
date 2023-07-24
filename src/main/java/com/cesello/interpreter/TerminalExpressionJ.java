@@ -2,11 +2,11 @@ package com.cesello.interpreter;
 
 import java.util.StringTokenizer;
 
-public class TerminalExpression implements Expression{
+public class TerminalExpressionJ implements ExpressionJ {
 
     private String data;
 
-    public TerminalExpression(String data) {
+    public TerminalExpressionJ(String data) {
         this.data = data;
     }
     @Override
